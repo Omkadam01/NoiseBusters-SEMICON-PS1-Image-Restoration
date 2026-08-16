@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Dataset archives and local data
+Dataset/*.zip
+data/
+datasets/
+
+# Build and packaging output
+build/
+dist/
+*.spec.bak
+installer_output/
+
+# Logs, diagnostics, and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+APPLICATION_SIZE_ANALYSIS.md
+REPOSITORY_AUDIT.md
+REMAINING_MANUAL_ACTIONS.md
+MANUAL_ACTIONS.md
+MISSING_ITEMS.md
+repo_verification.json
+app_size_breakdown.json
+
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
