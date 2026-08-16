@@ -1,4 +1,4 @@
-# NoiseBusters — SEMICON PS1 Image Restoration
+# NoiseBusters - SEMICON PS1 Image Restoration
 
 Final submission repository for **Team NoiseBusters** in the **SEMICON India Hackathon 2026, Problem Statement 1**.
 
@@ -32,7 +32,7 @@ Download the datasets from Kaggle:
 
 <https://www.kaggle.com/datasets/omkadam05/semicon-v2-dual-dataset>
 
-The multi-gigabyte archives are intentionally excluded from GitHub. See [`Dataset/README.md`](Dataset/README.md) and [`Dataset/Dataset_Audit_Report.pdf`](Dataset/Dataset_Audit_Report.pdf).
+The multi gigabyte archives are intentionally excluded from GitHub. See [`Dataset/README.md`](Dataset/README.md) and [`Dataset/Dataset_Audit_Report.pdf`](Dataset/Dataset_Audit_Report.pdf).
 
 ## Repository structure
 
@@ -68,7 +68,7 @@ NoiseBusters-SEMICON-PS1-Image-Restoration/
 
 ## Installation
 
-Python 3.10–3.12 is recommended.
+Python 3.10-3.12 is recommended.
 
 ```powershell
 python -m venv .venv
