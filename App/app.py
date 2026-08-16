@@ -135,11 +135,11 @@ class ModelPipeline:
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.restormer_path = self._find_checkpoint(
             ("Restormer_weights.pth", "best_restormer.pth", "best_restormer.zip", "best_restormer (2).zip"),
-            Path(__file__).resolve().parent.parent / "Models" / "Restoration_Models" / "Restormer" / "Restormer_weights.pth",
+            Path(__file__).resolve().parent.parent / "Models" / "Final_Selected_Models" / "Restormer" / "Restormer_weights.pth",
         )
         self.edsr_path = self._find_checkpoint(
             ("EDSR_weights.pth", "best_edsr.pth", "best_edsr.zip"),
-            Path(__file__).resolve().parent.parent / "Models" / "Super_Resolution_Models" / "EDSR" / "EDSR_weights.pth",
+            Path(__file__).resolve().parent.parent / "Models" / "Final_Selected_Models" / "EDSR" / "EDSR_weights.pth",
         )
         self.restormer = self._load(Restormer(), self.restormer_path)
         self.edsr = self._load(EDSR(), self.edsr_path)
@@ -151,8 +151,8 @@ class ModelPipeline:
         search_dirs = (
             script_dir,
             script_dir / "weights",
-            repo_root / "Models" / "Restoration_Models" / "Restormer",
-            repo_root / "Models" / "Super_Resolution_Models" / "EDSR",
+            repo_root / "Models" / "Final_Selected_Models" / "Restormer",
+            repo_root / "Models" / "Final_Selected_Models" / "EDSR",
             repo_root / "Models" / "Restormer",
             repo_root / "Models" / "EDSR",
             Path.cwd(),
