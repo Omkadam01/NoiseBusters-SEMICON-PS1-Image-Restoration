@@ -23,8 +23,8 @@ import torch.nn.functional as F
 
 SUPPORTED = {".jpg", ".jpeg", ".png", ".tif", ".tiff", ".bmp"}
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_RESTORMER = REPO_ROOT / "Models" / "Final_Selected_Models" / "Restormer" / "Restormer_weights.pth"
-DEFAULT_EDSR = REPO_ROOT / "Models" / "Final_Selected_Models" / "EDSR" / "EDSR_weights.pth"
+DEFAULT_RESTORMER = REPO_ROOT / "Models" / "Restoration_Models" / "Restormer" / "Restormer_weights.pth"
+DEFAULT_EDSR = REPO_ROOT / "Models" / "Super_Resolution_Models" / "EDSR" / "EDSR_weights.pth"
 
 
 class ResBlock(nn.Module):

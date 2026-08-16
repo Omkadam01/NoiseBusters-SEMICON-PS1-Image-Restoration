@@ -45,10 +45,9 @@ NoiseBusters-SEMICON-PS1-Image-Restoration/
 │   └── Dataset_Audit_Report.pdf
 ├── Models/
 │   ├── README.md
-│   ├── Final_Selected_Models/
-│   │   ├── EDSR/
-│   │   └── Restormer/
-│   └── benchmark model folders
+│   ├── Restoration_Models/
+│   ├── Super_Resolution_Models/
+│   └── Final_Selected_Models/
 ├── Evaluation/
 │   └── inference.py
 ├── Outputs/

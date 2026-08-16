@@ -15,7 +15,7 @@ The deployed pipeline is:
 SEM input -> Restormer -> EDSR x2 -> enhanced output
 ```
 
-The deployable notebooks and checkpoints are stored in `Final_Selected_Models/EDSR/` and `Final_Selected_Models/Restormer/`. The application and evaluation utility resolve their default checkpoints from these folders.
+The deployable notebooks and checkpoints are stored in `Super_Resolution_Models/EDSR/` and `Restoration_Models/Restormer/`. The application and evaluation utility resolve their default checkpoints from these folders.
 
 ## Core experiments
 
